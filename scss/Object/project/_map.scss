@@ -1,0 +1,43 @@
+   .p-map{
+      position: relative;
+      background-color: #000000;
+      opacity: 0.6;
+      background-size: cover;
+      &_img{
+        display: block;
+        margin: 0px;
+        height: 400px;
+        width: 100%;
+      }
+      &_shadow{
+        width: 700px;
+        height: 400px;
+        background-color: #000000;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      &_content{
+        color: #fff;
+        position: absolute;
+        top: 50px;
+        left: 70px;
+        width: 580px;
+        height: 300px;
+        h2{
+          padding-bottom: 70px;
+          font-weight: normal
+        }
+      } 
+      &_border{
+          border: solid 1px #fff;
+          width: 50px;
+          position: absolute;
+          top: 70px;
+          left: 0px;
+        }
+      }
+   
+
+   

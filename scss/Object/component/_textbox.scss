@@ -1,0 +1,28 @@
+.c-textbox{
+  &_archive{
+  width: 85%;
+  margin: 30px 70px 70px 70px;
+  h2{
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+    p{
+      font-size: 12px;
+    }
+  }
+  &_article{
+    background-color:#FFFFFF;
+    width: 81%;
+    padding: 8px;
+    background: rgba(243, 240, 240, 0.8);
+    color: #707070;
+    h2{
+      padding-bottom: 8px;
+      font-weight: normal
+    }
+    p{
+      font-size: 12px;
+      padding-bottom: 8px;
+    }
+  }
+}
