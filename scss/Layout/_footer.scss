@@ -1,0 +1,17 @@
+.l-footer{
+ position: relative;
+ z-index: 10;
+  height: 120px;
+  background-color: #9D8670;
+  &_history{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+  }
+  &_copyright{
+    text-align: center;
+    color: #fff;
+    padding-top: 25px;
+    font-size: 8px;
+  }
+}
