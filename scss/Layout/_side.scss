@@ -9,7 +9,7 @@
     margin-bottom: -10000px;
     overflow:hidden; 
   @include media(tab){
-      right: -200px;
+    -webkit-transform: translateX(-1000px);
     }
   }
 
@@ -21,7 +21,7 @@
     color: #707070;
     font-size: 400%;
     font-weight: bold;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
     display: none;
    
     @include media(tab){
@@ -72,21 +72,27 @@
 
 
 .open{
-  transform: translateX(-200px);
+  -webkit-transform: translateX(0px);
   display: block;
   width: 300px;
+  padding-bottom: 1800px;
   z-index: 20;
+  // transition:  0.3s;
 }
 
 .l-side_overlay{
   position: absolute;
   left: 0; 
   top: 0;
-  height: 1200%;
+  height: 1800px;
   width: 100%; 
-  background: #000000;
+  background: #615f5f;
   background-size: cover;
   z-index: 10;
+  display: none;
+}
+
+.none{
   display: none;
 }
 

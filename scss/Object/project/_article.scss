@@ -12,7 +12,7 @@
   &_inner{
      position: relative;
      @include media(sp){
-      margin-bottom: 18px ; 
+      margin-bottom: 20px ; 
     }
   }
   &_border{
@@ -68,10 +68,8 @@
       color: #FFFFFF;
       font-weight: normal;
       @include media(sp){
-       height: 725px;
-       @include media(sp){
+       height: 800px;
         margin: 30px 40px 50px 40px;
-      }
       }
       &_img{
         width: 50%;
@@ -209,7 +207,7 @@
      }
      @include media(sp){
       margin: 0 auto;
-      width: 420px;
+      width: 350px;
      }
        
   }

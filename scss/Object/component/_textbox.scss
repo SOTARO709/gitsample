@@ -16,6 +16,7 @@
       font-size: 12px;
       @include media(sp){
         font-size: 18px;
+        
       }
     }
   }
@@ -30,7 +31,7 @@
       height: 140px;
     }
     h2{
-      padding-bottom: 8px;
+      padding-bottom: 5px;
       font-weight: normal;
       @include media(tab){
         font-size: 20px;
@@ -38,7 +39,7 @@
     }
     p{
       font-size: 12px;
-      padding-bottom: 8px;
+      padding-bottom: 15px;
       @include media(sp){
         font-size: 15px;
       }

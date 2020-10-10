@@ -9,17 +9,25 @@ $(function() {
         $('.l-side_wrapper').removeClass('open')   
         $('.l-side_overlay').css(
           'display','none')
+          $('.l-side_back').removeClass('none')
 
     }else{}
 });
 
   $('.l-header_menu').on('click', function(){
   $('.l-side_wrapper').addClass('open')
-  
+});
+
+$('.l-header_menu').on('click', function(){
+  $('.l-side_back').addClass('none')
 });
 
 $('.l-side_close').on('click', function(){
   $('.l-side_wrapper').removeClass('open')
+});
+
+$('.l-side_close').on('click', function(){
+  $('.l-side_back').removeClass('none')
 });
 
 

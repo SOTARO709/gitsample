@@ -320,6 +320,7 @@ ul {
 }
 
 body {
+  width: 100%;
   height: 100%;
 }
 
@@ -353,7 +354,7 @@ body {
 @media screen and (max-width: 960px) {
   .l-header {
     display: block;
-    text-align: center; 
+    text-align: center;
     font-size: 15px;
   }
 }
@@ -651,7 +652,7 @@ body {
 
 @media screen and (max-width: 960px) {
   .l-side_wrapper {
-    right: -200px;
+    -webkit-transform: translateX(-1000px);
   }
 }
 
@@ -663,7 +664,7 @@ body {
   color: #707070;
   font-size: 400%;
   font-weight: bold;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
   display: none;
 }
 
@@ -726,9 +727,10 @@ body {
 }
 
 .open {
-  transform: translateX(-200px);
+  -webkit-transform: translateX(0px);
   display: block;
   width: 300px;
+  padding-bottom: 1800px;
   z-index: 20;
 }
 
@@ -736,11 +738,15 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  height: 1200%;
+  height: 1800px;
   width: 100%;
-  background: #000000;
+  background: #615f5f;
   background-size: cover;
   z-index: 10;
+  display: none;
+}
+
+.none {
   display: none;
 }
 
@@ -858,7 +864,7 @@ body {
 }
 
 .c-textbox_article h2 {
-  padding-bottom: 8px;
+  padding-bottom: 5px;
   font-weight: normal;
 }
 
@@ -870,7 +876,7 @@ body {
 
 .c-textbox_article p {
   font-size: 12px;
-  padding-bottom: 8px;
+  padding-bottom: 15px;
 }
 
 @media screen and (max-width: 640px) {
@@ -905,7 +911,7 @@ body {
 
 @media screen and (max-width: 640px) {
   .p-article_inner {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
   }
 }
 
@@ -988,12 +994,7 @@ body {
 
 @media screen and (max-width: 640px) {
   .p-article_archive {
-    height: 725px;
-  }
-}
-
-@media screen and (max-width: 640px) and (max-width: 640px) {
-  .p-article_archive {
+    height: 800px;
     margin: 30px 40px 50px 40px;
   }
 }
@@ -1201,7 +1202,7 @@ body {
 @media screen and (max-width: 640px) {
   .p-article_grid_item {
     margin: 0 auto;
-    width: 420px;
+    width: 350px;
   }
 }
 
@@ -1387,7 +1388,13 @@ body {
 }
 
 .p-pagination {
-  width: 100%;
+  width: 80%;
+}
+
+@media screen and (max-width: 960px) {
+  .p-pagination {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -1419,11 +1426,11 @@ body {
 }
 
 .p-pagination_sp_active1 {
-  padding-right: 160px;
+  margin-right: 110px;
 }
 
 .p-pagination_sp_active2 {
-  padding-left: 160px;
+  margin-left: 110px;
 }
 
 .p-pagination_nav {

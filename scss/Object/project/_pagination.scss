@@ -1,5 +1,8 @@
 .p-pagination{
-  width: 100%;
+  width: 80%;
+  @include media(tab){
+    width: 100%;
+   }
   @include media(sp){
    display: none;
   }
@@ -19,10 +22,10 @@
     }
   }
   &_active1{
-   padding-right: 160px;
+   margin-right: 110px;
   }
   &_active2{
-    padding-left: 160px;
+    margin-left: 110px;
   }
   }
   &_nav{
