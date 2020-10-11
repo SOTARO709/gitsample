@@ -70,14 +70,12 @@
   }
 }
 
-
 .open{
-  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
   display: block;
   width: 300px;
   padding-bottom: 1800px;
   z-index: 20;
-  // transition:  0.3s;
 }
 
 .l-side_overlay{
